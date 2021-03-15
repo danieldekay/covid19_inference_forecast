@@ -1,0 +1,13 @@
+name: binder
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pymc3
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
