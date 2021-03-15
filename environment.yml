@@ -3,8 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
   - pymc3
+  - numpy
+  - matplotlib
+  - matplotlib.pyplot
   - pip
   - pip:
     - nbgitpuller
